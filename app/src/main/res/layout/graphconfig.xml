@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/graphconfigviewid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editText_slop"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="119dp"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:text="3" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/editText_slop"
+        android:layout_toEndOf="@+id/editText_slop"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="x"
+        tools:text="x" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText2"
+        android:layout_alignBottom="@+id/editText2"
+        android:layout_toEndOf="@+id/editText2"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="+"
+        tools:text="+" />
+
+    <EditText
+        android:id="@+id/editText_intercept"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/editText3"
+        android:layout_toEndOf="@+id/editText3"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:text="2"
+        tools:text="2" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText_slop"
+        android:layout_marginRight="10dp"
+        android:layout_toStartOf="@+id/editText2"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="y = f(x) = "
+        tools:text="y = f(x) = " />
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="button_slopup" type="id" />
+    <item name="button_slowdown" type="id" />
+    <item name="button_interceptup" type="id" />
+    <item name="button_interceptdown" type="id" />
+
+    <item name="button_a_up" type="id" />
+    <item name="button_a_down" type="id" />
+
+    <item name="button_b_up" type="id" />
+    <item name="button_b_down" type="id" />
+
+    <item name="button_h_up" type="id" />
+    <item name="button_h_down" type="id" />
+
+    <item name="button_k_up" type="id" />
+    <item name="button_k_down" type="id" />
+
+
+    <item name="button_slopup_sin" type="id" />
+    <item name="button_slowdown_sin" type="id" />
+    <item name="button_interceptup_sin" type="id" />
+    <item name="button_interceptdown_sin" type="id" />
+
+    <item name="button_a_up_sin" type="id" />
+    <item name="button_a_down_sin" type="id" />
+
+    <item name="button_b_up_sin" type="id" />
+    <item name="button_b_down_sin" type="id" />
+
+    <item name="button_h_up_sin" type="id" />
+    <item name="button_h_down_sin" type="id" />
+
+    <item name="button_k_up_sin" type="id" />
+    <item name="button_k_down_sin" type="id" />
+
+
+</resources>
